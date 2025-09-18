@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Survey Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      color: white;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* KPI Section Styles */
+    .kpi-section {
+      margin-bottom: 30px;
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin-bottom: 20px;
+    }
+
+    .kpi-card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      border-left: 5px solid;
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .kpi-card.completed {
+      border-left-color: #28a745;
+    }
+
+    .kpi-card.pending {
+      border-left-color: #ffc107;
+    }
+
+    .kpi-card.sent {
+      border-left-color: #007bff;
+    }
+
+    .kpi-number {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .kpi-label {
+      color: #666;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+
+    .filters-section {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .filters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .filter-group label {
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .filter-group select {
+      padding: 12px;
+      border: 2px solid #e1e5e9;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: border-color 0.3s;
+    }
+
+    .filter-group select:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .stat-card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #667eea;
+      margin-bottom: 10px;
+    }
+
+    .stat-label {
+      color: #666;
+      font-weight: 500;
+    }
+
+    .charts-section {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .chart-container {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      width: 500px;
+      height: 500px;
+    }
+
+    .chart-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+
+    .table-section {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .table-container {
+      overflow-x: auto;
+      margin-top: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #e1e5e9;
+    }
+
+    th {
+      background: #f8f9fa;
+      font-weight: 600;
+      color: #333;
+    }
+
+    tr:hover {
+      background: #f8f9fa;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #666;
+    }
+
+    .no-data {
+      text-align: center;
+      padding: 40px;
+      color: #999;
+      font-style: italic;
+    }
+
+    @media (max-width: 768px) {
+      .charts-section {
+        justify-content: center;
+      }
+      
+      .chart-container {
+        width: 100%;
+        max-width: 500px;
+      }
+      
+      .filters-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📊 Interactive Survey Dashboard</h1>
+      <p>Comprehensive analysis of survey responses with advanced filtering</p>
+    </div>
+
+    <!-- KPI Cards Section -->
+    <div class="kpi-section">
+      <div class="kpi-grid">
+        <div class="kpi-card completed">
+          <div class="kpi-number" id="completedCount">-</div>
+          <div class="kpi-label">Completed</div>
+        </div>
+        <div class="kpi-card pending">
+          <div class="kpi-number" id="pendingCount">-</div>
+          <div class="kpi-label">Pending</div>
+        </div>
+        <div class="kpi-card sent">
+          <div class="kpi-number" id="sentCount">-</div>
+          <div class="kpi-label">Sent Surveys</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filters-section">
+      <h2>📋 Survey Filters</h2>
+      <div class="filters-grid">
+        <div class="filter-group">
+          <label for="surveySelect">Select Survey:</label>
+          <select id="surveySelect">
+            <option value="">Choose a survey...</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="questionSelect">Select Question:</label>
+          <select id="questionSelect" disabled>
+            <option value="">First select a survey...</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="categoryFilter">Filter by Category:</label>
+          <select id="categoryFilter" disabled>
+            <option value="">All categories...</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number" id="totalResponses">-</div>
+        <div class="stat-label">Total Responses</div>
+      </div>
+    </div>
+
+    <div class="charts-section">
+      <div class="chart-container">
+        <div class="chart-title">Response Distribution</div>
+        <canvas id="categoryChart"></canvas>
+      </div>
+    </div>
+
+    <div class="table-section">
+      <h2>📊 Detailed Response Data</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+             <tr>
+               <th>Phone Number</th>
+               <th>Answer</th>
+               <th>Category</th>
+               <th>Response ID</th>
+             </tr>
+           </thead>
+          <tbody id="detailsTableBody">
+            <tr>
+               <td colspan="4" class="no-data">Select a survey and question to view data</td>
+             </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Global variables
+    let surveys = [];
+    let surveyResponses = [];
+    let surveyStatus = null;
+    let categoryChartInstance = null;
+
+    // DOM elements
+    const surveySelect = document.getElementById('surveySelect');
+    const questionSelect = document.getElementById('questionSelect');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const detailsTableBody = document.getElementById('detailsTableBody');
+
+    // API endpoints
+     const API_BASE = 'https://apisupport.tmcltd.com';
+
+    // Utility functions
+    function showLoading() {
+      document.body.style.cursor = 'wait';
+    }
+
+    function hideLoading() {
+      document.body.style.cursor = 'default';
+    }
+
+    function showError(message) {
+      console.error(message);
+      alert(message);
+    }
+
+    // Fetch surveys from API
+     async function fetchSurveys() {
+       try {
+         const response = await fetch(`${API_BASE}/api/survey-details`);
+         if (!response.ok) throw new Error('Failed to fetch surveys');
+         surveys = await response.json();
+         populateSurveySelect();
+       } catch (error) {
+         console.error('Error fetching surveys:', error);
+         showError('Failed to load surveys');
+       }
+     }
+
+    // Fetch survey status from API
+     async function fetchSurveyStatus() {
+       try {
+         const response = await fetch(`${API_BASE}/survey-status`);
+         if (!response.ok) throw new Error('Failed to fetch survey status');
+         surveyStatus = await response.json();
+       } catch (error) {
+         console.error('Error fetching survey status:', error);
+         showError('Failed to load survey status');
+       }
+     }
+
+    // Populate survey dropdown
+     function populateSurveySelect() {
+       surveySelect.innerHTML = '<option value="">Choose a survey...</option>';
+       surveys.forEach((survey, index) => {
+         const option = document.createElement('option');
+         option.value = index;
+         option.textContent = survey.name;
+         surveySelect.appendChild(option);
+       });
+     }
+
+    // Populate question dropdown
+     function populateQuestionSelect(surveyIndex) {
+       const survey = surveys[surveyIndex];
+       questionSelect.innerHTML = '<option value="">Choose a question...</option>';
+       
+       if (survey && survey.questions) {
+         survey.questions.forEach((question, index) => {
+           const option = document.createElement('option');
+           option.value = `${surveyIndex}-${index}`;
+           option.textContent = `Q${index + 1}: ${question.short_question || `Question ${index + 1}`}`;
+           questionSelect.appendChild(option);
+         });
+         questionSelect.disabled = false;
+       } else {
+         questionSelect.disabled = true;
+       }
+     }
+
+    // Process responses for a specific question
+     function processQuestionResponses(questionKey) {
+       try {
+         showLoading();
+         const [surveyIndex, questionIndex] = questionKey.split('-').map(Number);
+         const survey = surveys[surveyIndex];
+         const question = survey.questions[questionIndex];
+         
+         // Convert answers object to array format
+         surveyResponses = [];
+         if (question && question.answers) {
+           Object.entries(question.answers).forEach(([phoneNumber, answerData]) => {
+             surveyResponses.push({
+               id: answerData.response_id,
+               answer_text: answerData.answer,
+               category: answerData.answer_category,
+               phone_number: phoneNumber,
+               created_at: new Date().toISOString() // API doesn't provide timestamp
+             });
+           });
+         }
+         
+         updateDashboard();
+       } catch (error) {
+         console.error('Error processing responses:', error);
+         showError('Failed to load responses');
+       } finally {
+         hideLoading();
+       }
+     }
+
+    // Update dashboard with current data
+    function updateDashboard() {
+      updateStats();
+      updateChart();
+      updateTable();
+      populateCategoryFilter();
+    }
+
+    // Update statistics
+    function updateStats() {
+      const totalResponses = surveyResponses.length;
+      document.getElementById('totalResponses').textContent = totalResponses;
+    }
+
+    // Update survey statistics
+     function updateSurveyStats() {
+       if (!surveyStatus) {
+         document.getElementById("completedCount").textContent = "-";
+         document.getElementById("pendingCount").textContent = "-";
+         document.getElementById("sentCount").textContent = "-";
+         return;
+       }
+
+       // Access the data correctly from the API response (instance_counts)
+       const completed = surveyStatus.instance_counts ? surveyStatus.instance_counts.completed_instances : 0;
+       const pending = surveyStatus.instance_counts ? surveyStatus.instance_counts.pending_instances : 0;
+       const sent = surveyStatus.instance_counts ? surveyStatus.instance_counts.sent_instances : 0;
+
+       document.getElementById("completedCount").textContent = completed;
+       document.getElementById("pendingCount").textContent = pending;
+       document.getElementById("sentCount").textContent = sent;
+     }
+
+    // Update chart
+    function updateChart() {
+      const ctx = document.getElementById('categoryChart').getContext('2d');
+      
+      // Destroy existing chart
+      if (categoryChartInstance) {
+        categoryChartInstance.destroy();
+      }
+
+      // Count responses by category
+      const categoryCounts = {};
+      surveyResponses.forEach(response => {
+        const category = response.category || 'Uncategorized';
+        categoryCounts[category] = (categoryCounts[category] || 0) + 1;
+      });
+
+      const labels = Object.keys(categoryCounts);
+      const data = Object.values(categoryCounts);
+      const colors = generateColors(labels.length);
+
+      categoryChartInstance = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: labels,
+          datasets: [{
+            data: data,
+            backgroundColor: colors,
+            borderWidth: 2,
+            borderColor: '#fff'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          layout: {
+            padding: {
+              bottom: 60
+            }
+          },
+          plugins: {
+            legend: {
+              position: 'bottom',
+              labels: {
+                padding: 8,
+                usePointStyle: true,
+                boxWidth: 10,
+                font: {
+                  size: 11
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+
+    // Generate colors for chart
+    function generateColors(count) {
+      const colors = [
+        '#667eea', '#764ba2', '#f093fb', '#f5576c',
+        '#4facfe', '#00f2fe', '#43e97b', '#38f9d7',
+        '#ffecd2', '#fcb69f', '#a8edea', '#fed6e3'
+      ];
+      return colors.slice(0, count);
+    }
+
+    // Update table
+    function updateTable() {
+      const selectedCategory = categoryFilter.value;
+      let filteredResponses = surveyResponses;
+
+      if (selectedCategory) {
+        filteredResponses = surveyResponses.filter(response => 
+          (response.category || 'Uncategorized') === selectedCategory
+        );
+      }
+
+      detailsTableBody.innerHTML = '';
+
+      if (filteredResponses.length === 0) {
+        detailsTableBody.innerHTML = '<tr><td colspan="4" class="no-data">No responses found</td></tr>';
+        return;
+      }
+
+      filteredResponses.forEach(response => {
+         const row = document.createElement('tr');
+         row.innerHTML = `
+           <td>${response.phone_number}</td>
+           <td>${response.answer_text || 'N/A'}</td>
+           <td>${response.category || 'Uncategorized'}</td>
+           <td>${response.id}</td>
+         `;
+         detailsTableBody.appendChild(row);
+       });
+    }
+
+    // Populate category filter
+    function populateCategoryFilter() {
+      const categories = [...new Set(surveyResponses.map(r => r.category || 'Uncategorized'))];
+      categoryFilter.innerHTML = '<option value="">All categories...</option>';
+      
+      categories.forEach(category => {
+        const option = document.createElement('option');
+        option.value = category;
+        option.textContent = category;
+        categoryFilter.appendChild(option);
+      });
+      
+      categoryFilter.disabled = false;
+    }
+
+    // Clear dashboard
+    function clearDashboard() {
+      document.getElementById("totalResponses").textContent = "-";
+      // Don't clear KPI data as it's independent of survey selection
+      
+      if (categoryChartInstance) categoryChartInstance.destroy();
+      
+      detailsTableBody.innerHTML = '<tr><td colspan="4" class="no-data">Select a survey and question to view data</td></tr>';
+    }
+
+    // Event listeners
+    function setupEventListeners() {
+      surveySelect.addEventListener('change', function() {
+        const surveyId = this.value;
+        if (surveyId) {
+          populateQuestionSelect(surveyId);
+        } else {
+          questionSelect.innerHTML = '<option value="">First select a survey...</option>';
+          questionSelect.disabled = true;
+          clearDashboard();
+        }
+        
+        // Reset category filter
+        categoryFilter.innerHTML = '<option value="">All categories...</option>';
+        categoryFilter.disabled = true;
+      });
+
+      questionSelect.addEventListener('change', function() {
+         const questionKey = this.value;
+         if (questionKey) {
+           processQuestionResponses(questionKey);
+         } else {
+           clearDashboard();
+           categoryFilter.innerHTML = '<option value="">All categories...</option>';
+           categoryFilter.disabled = true;
+         }
+       });
+
+      categoryFilter.addEventListener('change', function() {
+        updateTable();
+      });
+    }
+
+    // Initialize dashboard
+    async function initDashboard() {
+      try {
+        showLoading();
+        await fetchSurveys();
+        await fetchSurveyStatus();
+        updateSurveyStats(); // Call this immediately after fetching status
+        setupEventListeners();
+        hideLoading();
+      } catch (error) {
+        console.error("Error initializing dashboard:", error);
+        showError("Failed to load survey data");
+      }
+    }
+
+    // Start the application
+    document.addEventListener('DOMContentLoaded', initDashboard);
+  </script>
+</body>
+</html>

@@ -1,0 +1,1509 @@
+[
+    {
+        "name": "Customer Support Feedback (Live)",
+        "questions": [
+            {
+                "answers": {
+                    "923000204709": {
+                        "answer": "yes",
+                        "answer_category": "Yes",
+                        "response_id": "685ea92cd7298a8e0933bf37"
+                    },
+                    "923002327484": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685acbd3fa969a0c55b2083c"
+                    },
+                    "923002808830": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685a7e97fa969a0c55b20810"
+                    },
+                    "923004011642": {
+                        "answer": "Ok",
+                        "answer_category": "Yes",
+                        "response_id": "685a6bc5fa969a0c55b2079e"
+                    },
+                    "923018248780": {
+                        "answer": "No already filled",
+                        "answer_category": "No",
+                        "response_id": "685e61f2d7298a8e0933bf33"
+                    },
+                    "923018454369": {
+                        "answer": "Hello",
+                        "answer_category": "Other",
+                        "response_id": "685a7bbcfa969a0c55b2080e"
+                    },
+                    "923085551465": {
+                        "answer": "Start survey",
+                        "answer_category": "Yes",
+                        "response_id": "685bc3343bc4685f703e5c15"
+                    },
+                    "923111111017": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685a8134fa969a0c55b2082c"
+                    },
+                    "923135257508": {
+                        "answer": "?",
+                        "answer_category": "Other",
+                        "response_id": "685bc877c1f8489f1bf0d8d8"
+                    },
+                    "923226288256": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "68af1b07bc3d1c4d6e7db9e1"
+                    },
+                    "923313143569": {
+                        "answer": "sure",
+                        "answer_category": "Yes",
+                        "response_id": "68cbfcab429e03dbb95aae36"
+                    },
+                    "923332193207": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685a6d4efa969a0c55b207b6"
+                    },
+                    "923332259170": {
+                        "answer": "Please contact to Mr. Faisal (Sr. Manager IT)\n+92 333 2267528",
+                        "answer_category": "Other",
+                        "response_id": "685e6ca0d7298a8e0933bf35"
+                    },
+                    "923334229009": {
+                        "answer": "Sure",
+                        "answer_category": "Yes",
+                        "response_id": "685a778bfa969a0c55b207e6"
+                    },
+                    "923343157715": {
+                        "answer": "I completed",
+                        "answer_category": "No",
+                        "response_id": "687654bebc3d1c4d6e7db998"
+                    }
+                },
+                "category": "Survey Participation",
+                "question_index": "0",
+                "short_question": "What is the survey about?",
+                "text": "survey_invite"
+            },
+            {
+                "answers": {
+                    "923000204709": {
+                        "answer": "I didn't do any project with TMC",
+                        "answer_category": "Other",
+                        "response_id": "685ea94bd7298a8e0933bf39"
+                    },
+                    "923002327484": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685acbdffa969a0c55b2083e"
+                    },
+                    "923002808830": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685a7ea1fa969a0c55b20812"
+                    },
+                    "923004011642": {
+                        "answer": "Not fully",
+                        "answer_category": "No",
+                        "response_id": "685a6bd8fa969a0c55b207a0"
+                    },
+                    "923018248780": {
+                        "answer": "No",
+                        "answer_category": "No",
+                        "response_id": "685d102f62b44398cb4db6c7"
+                    },
+                    "923085551465": {
+                        "answer": "Scale 1 to 5, 1 is fully satisfied to 5 not satisfied. \nI rate 2",
+                        "answer_category": "Yes",
+                        "response_id": "685bc38a9132b46c0fe3c5e0"
+                    },
+                    "923111111017": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685a8142fa969a0c55b2082e"
+                    },
+                    "923226288256": {
+                        "answer": "No",
+                        "answer_category": "No",
+                        "response_id": "68af1b0ebc3d1c4d6e7db9e3"
+                    },
+                    "923313143569": {
+                        "answer": "are",
+                        "answer_category": "Other",
+                        "response_id": "68cbfcb0429e03dbb95aae38"
+                    },
+                    "923332193207": {
+                        "answer": "Which project",
+                        "answer_category": "Other",
+                        "response_id": "685a6d60fa969a0c55b207b8"
+                    },
+                    "923334229009": {
+                        "answer": "Which project",
+                        "answer_category": "Other",
+                        "response_id": "685a7799fa969a0c55b207e8"
+                    },
+                    "923343157715": {
+                        "answer": "Y2s",
+                        "answer_category": "Other",
+                        "response_id": "68766814bc3d1c4d6e7db99a"
+                    }
+                },
+                "category": "Customer Satisfaction",
+                "question_index": "1",
+                "short_question": "Satisfied with TMC services?",
+                "text": "Were you happy with the services provided by TMC during your recent project? "
+            },
+            {
+                "answers": {
+                    "923000204709": {
+                        "answer": "This Week",
+                        "answer_category": "This week",
+                        "response_id": "685ea97bd7298a8e0933bf3b"
+                    },
+                    "923002327484": {
+                        "answer": "Last month",
+                        "answer_category": "Last month",
+                        "response_id": "685acbf1fa969a0c55b20840"
+                    },
+                    "923002808830": {
+                        "answer": "This week",
+                        "answer_category": "This week",
+                        "response_id": "685a7eaffa969a0c55b20814"
+                    },
+                    "923004011642": {
+                        "answer": "Last week",
+                        "answer_category": "Last week",
+                        "response_id": "685a6be6fa969a0c55b207a2"
+                    },
+                    "923018248780": {
+                        "answer": "Never",
+                        "answer_category": "Never",
+                        "response_id": "685d103b62b44398cb4db6c9"
+                    },
+                    "923085551465": {
+                        "answer": "Last month",
+                        "answer_category": "Last month",
+                        "response_id": "685bc3a19132b46c0fe3c5e2"
+                    },
+                    "923111111017": {
+                        "answer": "Til the last day of my term",
+                        "answer_category": "Other",
+                        "response_id": "685a8163fa969a0c55b20830"
+                    },
+                    "923226288256": {
+                        "answer": "Last year",
+                        "answer_category": "Last year",
+                        "response_id": "68af1b1dbc3d1c4d6e7db9e5"
+                    },
+                    "923313143569": {
+                        "answer": "yes",
+                        "answer_category": "Other",
+                        "response_id": "68cbfcb4429e03dbb95aae3a"
+                    },
+                    "923332193207": {
+                        "answer": "Other than Rizwan sahab in lahore no one gets in touch with us at TMC",
+                        "answer_category": "Other",
+                        "response_id": "685a6d94fa969a0c55b207ba"
+                    },
+                    "923334229009": {
+                        "answer": "Last year",
+                        "answer_category": "Last year",
+                        "response_id": "685a77a6fa969a0c55b207ea"
+                    },
+                    "923343157715": {
+                        "answer": "Yes",
+                        "answer_category": "Other",
+                        "response_id": "68766816bc3d1c4d6e7db99c"
+                    }
+                },
+                "category": "Communication Frequency",
+                "question_index": "2",
+                "short_question": "When last contacted by non-SAP",
+                "text": "When was the last time someone other than our SAP consultants or project managers reached out to you? (This week, last month, last year, etc.)"
+            },
+            {
+                "answers": {
+                    "923000204709": {
+                        "answer": "I didn't had any experience so I can not comment on that",
+                        "answer_category": "Other",
+                        "response_id": "685ea99bd7298a8e0933bf3d"
+                    },
+                    "923002327484": {
+                        "answer": "Good",
+                        "answer_category": "Good",
+                        "response_id": "685acc0dfa969a0c55b20842"
+                    },
+                    "923002808830": {
+                        "answer": "Best",
+                        "answer_category": "Excellent",
+                        "response_id": "685a7ebefa969a0c55b20816"
+                    },
+                    "923004011642": {
+                        "answer": "Below average",
+                        "answer_category": "Below average",
+                        "response_id": "685a6c04fa969a0c55b207a4"
+                    },
+                    "923018248780": {
+                        "answer": "Poor",
+                        "answer_category": "Poor",
+                        "response_id": "685d104762b44398cb4db6cb"
+                    },
+                    "923085551465": {
+                        "answer": "Need more focus,  they don't go deep",
+                        "answer_category": "Below average",
+                        "response_id": "685bc4009132b46c0fe3c5e4"
+                    },
+                    "923111111017": {
+                        "answer": "Excellent",
+                        "answer_category": "Excellent",
+                        "response_id": "685a817efa969a0c55b20832"
+                    },
+                    "923226288256": {
+                        "answer": "They are competent",
+                        "answer_category": "Good",
+                        "response_id": "68af1b33bc3d1c4d6e7db9e7"
+                    },
+                    "923313143569": {
+                        "answer": "good",
+                        "answer_category": "Good",
+                        "response_id": "68cbfcba429e03dbb95aae3c"
+                    },
+                    "923332193207": {
+                        "answer": "SF consultants are fine , rest we don’t know",
+                        "answer_category": "Other",
+                        "response_id": "685a6db7fa969a0c55b207bc"
+                    },
+                    "923334229009": {
+                        "answer": "Average",
+                        "answer_category": "Average",
+                        "response_id": "685a77b5fa969a0c55b207ec"
+                    },
+                    "923343157715": {
+                        "answer": "8 out of 10",
+                        "answer_category": "Good",
+                        "response_id": "68766827bc3d1c4d6e7db99e"
+                    }
+                },
+                "category": "Customer Satisfaction",
+                "question_index": "3",
+                "short_question": "Rate consultants on skills, kn",
+                "text": "How would you rate our consultants overall in terms of technical skills, domain knowledge, communication, attitude, and timely delivery? "
+            },
+            {
+                "answers": {
+                    "923000204709": {
+                        "answer": "lower your pricing",
+                        "answer_category": "Pricing",
+                        "response_id": "685ea9b2d7298a8e0933bf3f"
+                    },
+                    "923002327484": {
+                        "answer": "Retain experienced resources, diversified trainings, enough consultants to share workload",
+                        "answer_category": "Resourcing and training",
+                        "response_id": "685acc76fa969a0c55b20844"
+                    },
+                    "923002808830": {
+                        "answer": "Since companies are very excited on AI, TMC should plan dedicated sessions with companies on AI.",
+                        "answer_category": "AI training/sessions",
+                        "response_id": "685a7efdfa969a0c55b20818"
+                    },
+                    "923004011642": {
+                        "answer": "Hire and deploy better consultants",
+                        "answer_category": "Consultant quality/fit",
+                        "response_id": "685a6c21fa969a0c55b207a6"
+                    },
+                    "923018248780": {
+                        "answer": "Effective communication",
+                        "answer_category": "Communication",
+                        "response_id": "685d105f62b44398cb4db6cd"
+                    },
+                    "923085551465": {
+                        "answer": "Right consultant for Right issue",
+                        "answer_category": "Consultant quality/fit",
+                        "response_id": "685bc47d9132b46c0fe3c5e6"
+                    },
+                    "923111111017": {
+                        "answer": "Practical exposure to businesses",
+                        "answer_category": "Business exposure",
+                        "response_id": "685a81a4fa969a0c55b20834"
+                    },
+                    "923226288256": {
+                        "answer": "Company should work without follow up and in structured hierarchical way",
+                        "answer_category": "Process and structure",
+                        "response_id": "68af1b65bc3d1c4d6e7db9e9"
+                    },
+                    "923313143569": {
+                        "answer": "fine",
+                        "answer_category": "No improvement needed",
+                        "response_id": "68cbfcbe429e03dbb95aae3e"
+                    },
+                    "923332193207": {
+                        "answer": "Improve communication better account management payment issues , TMC has gotten bigger but other than Rizwan or Haseeb no one takes our account seriously .",
+                        "answer_category": "Communication and account management",
+                        "response_id": "685a6e01fa969a0c55b207be"
+                    },
+                    "923334229009": {
+                        "answer": "Better consultants and solution architects",
+                        "answer_category": "Consultant quality/fit",
+                        "response_id": "685a77c6fa969a0c55b207f0"
+                    },
+                    "923343157715": {
+                        "answer": "Every day",
+                        "answer_category": "Other",
+                        "response_id": "6876682fbc3d1c4d6e7db9a0"
+                    }
+                },
+                "category": "Customer feedback",
+                "question_index": "4",
+                "short_question": "How to improve your experience",
+                "text": "What is the one thing we could do to improve your experience with us?"
+            },
+            {
+                "answers": {
+                    "923000204709": {
+                        "answer": "7",
+                        "answer_category": "7",
+                        "response_id": "685ea9bcd7298a8e0933bf41"
+                    },
+                    "923002327484": {
+                        "answer": "8",
+                        "answer_category": "8",
+                        "response_id": "685acc80fa969a0c55b20846"
+                    },
+                    "923002808830": {
+                        "answer": "10",
+                        "answer_category": "10",
+                        "response_id": "685a7f07fa969a0c55b2081a"
+                    },
+                    "923004011642": {
+                        "answer": "7",
+                        "answer_category": "7",
+                        "response_id": "685a6c2bfa969a0c55b207aa"
+                    },
+                    "923018248780": {
+                        "answer": "4",
+                        "answer_category": "4",
+                        "response_id": "685d119962b44398cb4db6cf"
+                    },
+                    "923085551465": {
+                        "answer": "8",
+                        "answer_category": "8",
+                        "response_id": "685bc4909132b46c0fe3c5e8"
+                    },
+                    "923111111017": {
+                        "answer": "10",
+                        "answer_category": "10",
+                        "response_id": "685a81b0fa969a0c55b20836"
+                    },
+                    "923226288256": {
+                        "answer": "9",
+                        "answer_category": "9",
+                        "response_id": "68af1b70bc3d1c4d6e7db9eb"
+                    },
+                    "923313143569": {
+                        "answer": "9",
+                        "answer_category": "9",
+                        "response_id": "68cbfcc5429e03dbb95aae40"
+                    },
+                    "923332193207": {
+                        "answer": "4",
+                        "answer_category": "4",
+                        "response_id": "685a6e0dfa969a0c55b207c0"
+                    },
+                    "923334229009": {
+                        "answer": "8",
+                        "answer_category": "8",
+                        "response_id": "685a77cffa969a0c55b207f4"
+                    },
+                    "923343157715": {
+                        "answer": "8",
+                        "answer_category": "8",
+                        "response_id": "68766c50bc3d1c4d6e7db9a2"
+                    }
+                },
+                "category": "Customer Satisfaction",
+                "question_index": "5",
+                "short_question": "Likelihood of recommending TMC",
+                "text": "On a scale of 0 to 10, how likely are you to recommend TMC to others?"
+            },
+            {
+                "answers": {
+                    "923000204709": {
+                        "answer": "no",
+                        "answer_category": "No",
+                        "response_id": "685ea9c4d7298a8e0933bf43"
+                    },
+                    "923002327484": {
+                        "answer": "Timely response on ticket.. too much follow-up",
+                        "answer_category": "Yes",
+                        "response_id": "685accb6fa969a0c55b20848"
+                    },
+                    "923002808830": {
+                        "answer": "No",
+                        "answer_category": "No",
+                        "response_id": "685a7f0efa969a0c55b2081c"
+                    },
+                    "923004011642": {
+                        "answer": "No",
+                        "answer_category": "No",
+                        "response_id": "685a6c3afa969a0c55b207ac"
+                    },
+                    "923018248780": {
+                        "answer": "Services Terminated",
+                        "answer_category": "Other",
+                        "response_id": "685d11b462b44398cb4db6d1"
+                    },
+                    "923085551465": {
+                        "answer": "Often",
+                        "answer_category": "Yes",
+                        "response_id": "685bc49f9132b46c0fe3c5ea"
+                    },
+                    "923111111017": {
+                        "answer": "No",
+                        "answer_category": "No",
+                        "response_id": "685a81b8fa969a0c55b20838"
+                    },
+                    "923226288256": {
+                        "answer": "Not right now",
+                        "answer_category": "No",
+                        "response_id": "68af1b7abc3d1c4d6e7db9ed"
+                    },
+                    "923313143569": {
+                        "answer": "no",
+                        "answer_category": "No",
+                        "response_id": "68cbfcc9429e03dbb95aae42"
+                    },
+                    "923332193207": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685a6e14fa969a0c55b207c2"
+                    },
+                    "923334229009": {
+                        "answer": "Not really",
+                        "answer_category": "No",
+                        "response_id": "685a77d8fa969a0c55b207f8"
+                    },
+                    "923343157715": {
+                        "answer": "No , not yet",
+                        "answer_category": "No",
+                        "response_id": "6867da44bc3d1c4d6e7db93c"
+                    }
+                },
+                "category": "Customer feedback",
+                "question_index": "6",
+                "short_question": "Service issues?",
+                "text": "Are you facing any issues with our services?"
+            },
+            {
+                "answers": {
+                    "923000204709": {
+                        "answer": "not yet",
+                        "answer_category": "No",
+                        "response_id": "685ea9ddd7298a8e0933bf45"
+                    },
+                    "923002327484": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685accd3fa969a0c55b2084a"
+                    },
+                    "923002808830": {
+                        "answer": "Yes",
+                        "answer_category": "Yes",
+                        "response_id": "685a7f19fa969a0c55b2081e"
+                    },
+                    "923004011642": {
+                        "answer": "No",
+                        "answer_category": "No",
+                        "response_id": "685a6c46fa969a0c55b207ae"
+                    },
+                    "923018248780": {
+                        "answer": "No",
+                        "answer_category": "No",
+                        "response_id": "685d11cb62b44398cb4db6d3"
+                    },
+                    "923085551465": {
+                        "answer": "No",
+                        "answer_category": "No",
+                        "response_id": "685bc4b19132b46c0fe3c5ec"
+                    },
+                    "923111111017": {
+                        "answer": "Sure",
+                        "answer_category": "Yes",
+                        "response_id": "685a81cbfa969a0c55b2083a"
+                    },
+                    "923226288256": {
+                        "answer": "Not now",
+                        "answer_category": "No",
+                        "response_id": "68af1cdabc3d1c4d6e7db9ef"
+                    },
+                    "923313143569": {
+                        "answer": "sure",
+                        "answer_category": "Yes",
+                        "response_id": "68cbfccf429e03dbb95aae44"
+                    },
+                    "923332193207": {
+                        "answer": "No",
+                        "answer_category": "No",
+                        "response_id": "685a6e1efa969a0c55b207c4"
+                    },
+                    "923334229009": {
+                        "answer": "Can be explored",
+                        "answer_category": "Other",
+                        "response_id": "685a77eafa969a0c55b207fc"
+                    },
+                    "923343157715": {
+                        "answer": "Sure",
+                        "answer_category": "Yes",
+                        "response_id": "6867da4ebc3d1c4d6e7db93e"
+                    }
+                },
+                "category": "Marketing Preferences",
+                "question_index": "7",
+                "short_question": "Interested in a transformation",
+                "text": "Would you like us to do a \"Transformation Story\" (marketing case study video) about your company and your journey?"
+            }
+        ],
+        "survey_id": "6859497cabcec302b693ef7d"
+    },
+    {
+        "name": "Office Internet Experience Survey",
+        "questions": [
+            {
+                "answers": {
+                    "923129711386": {
+                        "answer": "Yes",
+                        "answer_category": null,
+                        "response_id": "68be8be73fdccf3a434cb4fe"
+                    }
+                },
+                "category": "Survey Participation",
+                "question_index": "0",
+                "short_question": "Survey?",
+                "text": "survey_invite"
+            },
+            {
+                "answers": {
+                    "923129711386": {
+                        "answer": "Stable",
+                        "answer_category": null,
+                        "response_id": "68be8c0a3fdccf3a434cb500"
+                    }
+                },
+                "category": "Internet Reliability",
+                "question_index": "1",
+                "short_question": "Internet availability?",
+                "text": " Availability of internet?\nAlways\nStable\nFrequent outages\nLong outages"
+            },
+            {
+                "answers": {
+                    "923129711386": {
+                        "answer": "Fair",
+                        "answer_category": null,
+                        "response_id": "68be8c133fdccf3a434cb502"
+                    }
+                },
+                "category": "Customer Satisfaction",
+                "question_index": "2",
+                "short_question": "Connection quality rating?",
+                "text": "Overall quality of connection?\nExcellent\nGood\nFair\nPoor"
+            },
+            {
+                "answers": {
+                    "923129711386": {
+                        "answer": "Sometimes unreliable",
+                        "answer_category": null,
+                        "response_id": "68be8c213fdccf3a434cb504"
+                    }
+                },
+                "category": "Internet Reliability",
+                "question_index": "3",
+                "short_question": "Internet reliability for work ",
+                "text": "How reliable is the internet for work apps (Teams/Zoom/ERP)?\nAlways reliable\nMostly reliable\nSometimes unreliable\nOften unreliable"
+            },
+            {
+                "answers": {
+                    "923129711386": {
+                        "answer": "Mostly afternoon",
+                        "answer_category": null,
+                        "response_id": "68be8c333fdccf3a434cb506"
+                    }
+                },
+                "category": "Internet Connectivity",
+                "question_index": "4",
+                "short_question": "Internet downtime schedule?",
+                "text": "Does the internet go down at specific times daily?\nNever\nMostly Morning\nMostly Afternoon\nMostly Evening"
+            },
+            {
+                "answers": {
+                    "923129711386": {
+                        "answer": "Partial",
+                        "answer_category": null,
+                        "response_id": "68be8c3a3fdccf3a434cb508"
+                    }
+                },
+                "category": "Wi-Fi Coverage",
+                "question_index": "5",
+                "short_question": "Wi-Fi coverage in office?",
+                "text": "Wi-Fi coverage across office?\nFull\nPartial\nPoor"
+            },
+            {
+                "answers": {
+                    "923129711386": {
+                        "answer": "Sometimes",
+                        "answer_category": null,
+                        "response_id": "68be8c453fdccf3a434cb50a"
+                    }
+                },
+                "category": "Frequency of productivity impact",
+                "question_index": "6",
+                "short_question": "Impact on productivity frequen",
+                "text": "How often does it impact your productivity?\nNever\nRarely\nSometimes\nOften"
+            }
+        ],
+        "survey_id": "68be8bc23fdccf3a434cb4fb"
+    },
+    {
+        "name": "SAP SUPPORT FEEDBACK SURVEY FINAL ",
+        "questions": [
+            {
+                "answers": {
+                    "923005090264": {
+                        "answer": "sur",
+                        "answer_category": null,
+                        "response_id": "68ca50559f22717d80e0095f"
+                    },
+                    "923018201783": {
+                        "answer": "Yes",
+                        "answer_category": null,
+                        "response_id": "68ca61559f22717d80e0096f"
+                    },
+                    "923018500731": {
+                        "answer": "Yes",
+                        "answer_category": null,
+                        "response_id": "68ca4b849f22717d80e0092d"
+                    },
+                    "923018744884": {
+                        "answer": "Already done",
+                        "answer_category": null,
+                        "response_id": "68ca49b49f22717d80e00907"
+                    },
+                    "923035918082": {
+                        "answer": "Let's begin",
+                        "answer_category": null,
+                        "response_id": "68ca4eef9f22717d80e0094f"
+                    },
+                    "923129711386": {
+                        "answer": "Yes",
+                        "answer_category": null,
+                        "response_id": "68c10561ed54ec3490efbaba"
+                    },
+                    "923153355328": {
+                        "answer": "ok",
+                        "answer_category": null,
+                        "response_id": "68ca4d189f22717d80e0093d"
+                    },
+                    "923212029851": {
+                        "answer": "Yes",
+                        "answer_category": null,
+                        "response_id": "68ca49e69f22717d80e00911"
+                    },
+                    "923217948806": {
+                        "answer": "Sure why not",
+                        "answer_category": null,
+                        "response_id": "68c10704ed54ec3490efbacc"
+                    },
+                    "923305066658": {
+                        "answer": "Yes",
+                        "answer_category": null,
+                        "response_id": "68cc0152733e9f74d9f3e4bf"
+                    },
+                    "923313143569": {
+                        "answer": "sure",
+                        "answer_category": null,
+                        "response_id": "68c9554f5227ebfbe8d659a6"
+                    },
+                    "923314504644": {
+                        "answer": "yes.sure",
+                        "answer_category": null,
+                        "response_id": "68ca4acc9f22717d80e00926"
+                    },
+                    "923319063116": {
+                        "answer": "Sure why not",
+                        "answer_category": null,
+                        "response_id": "68c117baed54ec3490efbb38"
+                    },
+                    "923328201529": {
+                        "answer": "yes",
+                        "answer_category": null,
+                        "response_id": "68ca690b9f22717d80e00971"
+                    },
+                    "923332228398": {
+                        "answer": "Yes",
+                        "answer_category": null,
+                        "response_id": "68ca81b09f22717d80e00993"
+                    },
+                    "923334485309": {
+                        "answer": "yes",
+                        "answer_category": null,
+                        "response_id": "68ca49c39f22717d80e0090d"
+                    },
+                    "923334577717": {
+                        "answer": "could you please share link of the survey",
+                        "answer_category": null,
+                        "response_id": "68ca81a29f22717d80e00991"
+                    },
+                    "923335535832": {
+                        "answer": "Yes",
+                        "answer_category": null,
+                        "response_id": "68caf5149f22717d80e009c4"
+                    },
+                    "923339615333": {
+                        "answer": "yes",
+                        "answer_category": null,
+                        "response_id": "68ca84599f22717d80e009a3"
+                    },
+                    "923339662496": {
+                        "answer": "Yes, please",
+                        "answer_category": null,
+                        "response_id": "68ca9d7c9f22717d80e009b4"
+                    },
+                    "923422916143": {
+                        "answer": "Already filled",
+                        "answer_category": null,
+                        "response_id": "68ca81419f22717d80e0098f"
+                    },
+                    "923462713210": {
+                        "answer": "In my view, TMC offers excellent support for Functional Module. However, they must also be strengthening their SAC and SAP Fiori skills.",
+                        "answer_category": null,
+                        "response_id": "68c11744ed54ec3490efbb2e"
+                    }
+                },
+                "category": "Survey Participation",
+                "question_index": "0",
+                "short_question": "What is survey_invite?",
+                "text": "survey_invite"
+            },
+            {
+                "answers": {
+                    "923018201783": {
+                        "answer": "Excellent",
+                        "answer_category": null,
+                        "response_id": "68ca6cb29f22717d80e00981"
+                    },
+                    "923018500731": {
+                        "answer": "Good",
+                        "answer_category": null,
+                        "response_id": "68ca4b9c9f22717d80e0092f"
+                    },
+                    "923018744884": {
+                        "answer": "Excellent",
+                        "answer_category": null,
+                        "response_id": "68c931454bdb58a0b3eddd43"
+                    },
+                    "923035918082": {
+                        "answer": "Good",
+                        "answer_category": null,
+                        "response_id": "68ca4efd9f22717d80e00951"
+                    },
+                    "923129711386": {
+                        "answer": "Good",
+                        "answer_category": null,
+                        "response_id": "68c1056bed54ec3490efbabc"
+                    },
+                    "923153355328": {
+                        "answer": "Good",
+                        "answer_category": null,
+                        "response_id": "68ca4d279f22717d80e0093f"
+                    },
+                    "923212029851": {
+                        "answer": "Good",
+                        "answer_category": null,
+                        "response_id": "68ca4a689f22717d80e0091f"
+                    },
+                    "923217948806": {
+                        "answer": "They are good",
+                        "answer_category": null,
+                        "response_id": "68c10715ed54ec3490efbace"
+                    },
+                    "923305066658": {
+                        "answer": "Good",
+                        "answer_category": null,
+                        "response_id": "68cc015a733e9f74d9f3e4c1"
+                    },
+                    "923314504644": {
+                        "answer": "Good",
+                        "answer_category": null,
+                        "response_id": "68ca51829f22717d80e00961"
+                    },
+                    "923319063116": {
+                        "answer": ". Excellent",
+                        "answer_category": null,
+                        "response_id": "68c11e3bed54ec3490efbb40"
+                    },
+                    "923328201529": {
+                        "answer": "Fair",
+                        "answer_category": null,
+                        "response_id": "68ca69219f22717d80e00973"
+                    },
+                    "923332228398": {
+                        "answer": "Good",
+                        "answer_category": null,
+                        "response_id": "68ca81bf9f22717d80e00995"
+                    },
+                    "923334485309": {
+                        "answer": "Excellent",
+                        "answer_category": null,
+                        "response_id": "68ca49d09f22717d80e0090f"
+                    },
+                    "923335535832": {
+                        "answer": "Fair",
+                        "answer_category": null,
+                        "response_id": "68caf5339f22717d80e009c6"
+                    },
+                    "923339615333": {
+                        "answer": "Excellent",
+                        "answer_category": null,
+                        "response_id": "68ca84689f22717d80e009a5"
+                    },
+                    "923339662496": {
+                        "answer": "Good",
+                        "answer_category": null,
+                        "response_id": "68ca9dc49f22717d80e009b6"
+                    },
+                    "923422916143": {
+                        "answer": "Excellent",
+                        "answer_category": null,
+                        "response_id": "68c928e44bdb58a0b3eddd31"
+                    },
+                    "923462713210": {
+                        "answer": "Excellent",
+                        "answer_category": null,
+                        "response_id": "68c11759ed54ec3490efbb30"
+                    }
+                },
+                "category": "Customer Satisfaction",
+                "question_index": "1",
+                "short_question": "Rate SAP Support Manager's beh",
+                "text": "Q1) How would you rate the SAP Support Manager’s behavior and interaction regarding your tickets?\n•\tExcellent\n•\tGood\n•\tFair\n"
+            },
+            {
+                "answers": {
+                    "923018201783": {
+                        "answer": "Highly effective",
+                        "answer_category": null,
+                        "response_id": "68ca7ea59f22717d80e00983"
+                    },
+                    "923018500731": {
+                        "answer": "Effective",
+                        "answer_category": null,
+                        "response_id": "68ca4bb09f22717d80e00931"
+                    },
+                    "923018744884": {
+                        "answer": "Effective",
+                        "answer_category": null,
+                        "response_id": "68c9315e4bdb58a0b3eddd45"
+                    },
+                    "923035918082": {
+                        "answer": "Effective",
+                        "answer_category": null,
+                        "response_id": "68ca4f099f22717d80e00953"
+                    },
+                    "923129711386": {
+                        "answer": "Effective",
+                        "answer_category": null,
+                        "response_id": "68c10572ed54ec3490efbabe"
+                    },
+                    "923153355328": {
+                        "answer": "effective",
+                        "answer_category": null,
+                        "response_id": "68ca4d3d9f22717d80e00943"
+                    },
+                    "923212029851": {
+                        "answer": "Somewhat Effective",
+                        "answer_category": null,
+                        "response_id": "68ca4a8b9f22717d80e00921"
+                    },
+                    "923217948806": {
+                        "answer": "Somewhat fine",
+                        "answer_category": null,
+                        "response_id": "68c1081eed54ec3490efbad0"
+                    },
+                    "923305066658": {
+                        "answer": "Effective",
+                        "answer_category": null,
+                        "response_id": "68cc0174733e9f74d9f3e4c3"
+                    },
+                    "923314504644": {
+                        "answer": "effective",
+                        "answer_category": null,
+                        "response_id": "68ca526c9f22717d80e00963"
+                    },
+                    "923319063116": {
+                        "answer": ". Highly Effective",
+                        "answer_category": null,
+                        "response_id": "68c11f4ced54ec3490efbb42"
+                    },
+                    "923328201529": {
+                        "answer": "somewhat effective",
+                        "answer_category": null,
+                        "response_id": "68ca69379f22717d80e00975"
+                    },
+                    "923332228398": {
+                        "answer": "Somewhat effective",
+                        "answer_category": null,
+                        "response_id": "68ca81e29f22717d80e00997"
+                    },
+                    "923334485309": {
+                        "answer": "Highly effective",
+                        "answer_category": null,
+                        "response_id": "68ca49ec9f22717d80e00913"
+                    },
+                    "923335535832": {
+                        "answer": "Effective",
+                        "answer_category": null,
+                        "response_id": "68caf5749f22717d80e009c8"
+                    },
+                    "923339615333": {
+                        "answer": "effective",
+                        "answer_category": null,
+                        "response_id": "68ca84e09f22717d80e009a7"
+                    },
+                    "923339662496": {
+                        "answer": "Effective",
+                        "answer_category": null,
+                        "response_id": "68ca9ddf9f22717d80e009b8"
+                    },
+                    "923422916143": {
+                        "answer": "Effective",
+                        "answer_category": null,
+                        "response_id": "68c928f54bdb58a0b3eddd33"
+                    },
+                    "923462713210": {
+                        "answer": "Highly effective",
+                        "answer_category": null,
+                        "response_id": "68c11771ed54ec3490efbb32"
+                    }
+                },
+                "category": "Customer Satisfaction",
+                "question_index": "2",
+                "short_question": "How effective is SAP Support M",
+                "text": "Q2) How effectively does the SAP Support Manager handle urgent issues and take prompt action?\n•\tHighly Effective\n•\tEffective\n•\tSomewhat Effective\n•\tIneffective\n"
+            },
+            {
+                "answers": {
+                    "923018201783": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca7eb19f22717d80e00985"
+                    },
+                    "923018500731": {
+                        "answer": "Needs improvement",
+                        "answer_category": null,
+                        "response_id": "68ca4be69f22717d80e00933"
+                    },
+                    "923018744884": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68c9316a4bdb58a0b3eddd47"
+                    },
+                    "923035918082": {
+                        "answer": "Needs improvement",
+                        "answer_category": null,
+                        "response_id": "68ca4f179f22717d80e00955"
+                    },
+                    "923129711386": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68c105dbed54ec3490efbac0"
+                    },
+                    "923153355328": {
+                        "answer": "satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca4d499f22717d80e00945"
+                    },
+                    "923212029851": {
+                        "answer": "Needs Improvement",
+                        "answer_category": null,
+                        "response_id": "68ca4ac09f22717d80e00923"
+                    },
+                    "923217948806": {
+                        "answer": "Needs a lot of improvement I am not happy",
+                        "answer_category": null,
+                        "response_id": "68c1082ced54ec3490efbad2"
+                    },
+                    "923305066658": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68cc017b733e9f74d9f3e4c5"
+                    },
+                    "923314504644": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca52e79f22717d80e00965"
+                    },
+                    "923319063116": {
+                        "answer": ". Needs Improvement",
+                        "answer_category": null,
+                        "response_id": "68c11f6ced54ec3490efbb44"
+                    },
+                    "923328201529": {
+                        "answer": "needs improvement",
+                        "answer_category": null,
+                        "response_id": "68ca69489f22717d80e00977"
+                    },
+                    "923332228398": {
+                        "answer": "Need improvement",
+                        "answer_category": null,
+                        "response_id": "68ca820a9f22717d80e00999"
+                    },
+                    "923334485309": {
+                        "answer": "satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca49f79f22717d80e00915"
+                    },
+                    "923335535832": {
+                        "answer": "Dissatisfied",
+                        "answer_category": null,
+                        "response_id": "68caf59c9f22717d80e009ca"
+                    },
+                    "923339615333": {
+                        "answer": "needs improvement",
+                        "answer_category": null,
+                        "response_id": "68ca85289f22717d80e009a9"
+                    },
+                    "923339662496": {
+                        "answer": "Needs Improvement",
+                        "answer_category": null,
+                        "response_id": "68ca9df69f22717d80e009ba"
+                    },
+                    "923422916143": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68c928ff4bdb58a0b3eddd35"
+                    },
+                    "923462713210": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68c11788ed54ec3490efbb34"
+                    }
+                },
+                "category": "Customer Satisfaction",
+                "question_index": "3",
+                "short_question": "Ticket response satisfaction?",
+                "text": "Q3) How satisfied are you with our ticket response and resolution time?\n•\tSatisfied\n•\tNeeds Improvement\n•\tDissatisfied\n"
+            },
+            {
+                "answers": {
+                    "923018201783": {
+                        "answer": "Highly knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68ca7ec29f22717d80e00987"
+                    },
+                    "923018500731": {
+                        "answer": "highly knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68ca4bfc9f22717d80e00935"
+                    },
+                    "923018744884": {
+                        "answer": "Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68c931844bdb58a0b3eddd49"
+                    },
+                    "923035918082": {
+                        "answer": "Highly knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68ca4f2d9f22717d80e00957"
+                    },
+                    "923129711386": {
+                        "answer": "Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68c105e8ed54ec3490efbac2"
+                    },
+                    "923153355328": {
+                        "answer": "Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68ca4d5f9f22717d80e00947"
+                    },
+                    "923212029851": {
+                        "answer": "Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68ca4acb9f22717d80e00925"
+                    },
+                    "923217948806": {
+                        "answer": "Pathetic",
+                        "answer_category": null,
+                        "response_id": "68c10841ed54ec3490efbad4"
+                    },
+                    "923305066658": {
+                        "answer": "Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68cc0184733e9f74d9f3e4c7"
+                    },
+                    "923314504644": {
+                        "answer": "Only interacted with BASIS resource and he is Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68ca53129f22717d80e00967"
+                    },
+                    "923319063116": {
+                        "answer": "Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68c130a1ed54ec3490efbb48"
+                    },
+                    "923328201529": {
+                        "answer": "Partially Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68ca695b9f22717d80e00979"
+                    },
+                    "923332228398": {
+                        "answer": "Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68ca82299f22717d80e0099b"
+                    },
+                    "923334485309": {
+                        "answer": "highly knowledeable",
+                        "answer_category": null,
+                        "response_id": "68ca4a0b9f22717d80e00917"
+                    },
+                    "923335535832": {
+                        "answer": "Knowledeable",
+                        "answer_category": null,
+                        "response_id": "68caf5c19f22717d80e009cc"
+                    },
+                    "923339615333": {
+                        "answer": "Knowlegeable",
+                        "answer_category": null,
+                        "response_id": "68ca854b9f22717d80e009ab"
+                    },
+                    "923339662496": {
+                        "answer": "Partially knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68ca9e119f22717d80e009bc"
+                    },
+                    "923422916143": {
+                        "answer": "Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68c929184bdb58a0b3eddd37"
+                    },
+                    "923462713210": {
+                        "answer": "Knowledgeable",
+                        "answer_category": null,
+                        "response_id": "68c117b0ed54ec3490efbb36"
+                    }
+                },
+                "category": "Consultant Expertise",
+                "question_index": "4",
+                "short_question": "Are consultants knowledgeable ",
+                "text": "Q4) Do our functional consultants have the required knowledge and expertise?\n•\tHighly Knowledgeable\n•\tKnowledgeable\n•\tPartially Knowledgeable\n•\tLacking Knowledge\n"
+            },
+            {
+                "answers": {
+                    "923018201783": {
+                        "answer": "Very clear",
+                        "answer_category": null,
+                        "response_id": "68ca7ecf9f22717d80e00989"
+                    },
+                    "923018500731": {
+                        "answer": "Clear",
+                        "answer_category": null,
+                        "response_id": "68ca4c0a9f22717d80e00937"
+                    },
+                    "923018744884": {
+                        "answer": "Clear",
+                        "answer_category": null,
+                        "response_id": "68c931934bdb58a0b3eddd4b"
+                    },
+                    "923035918082": {
+                        "answer": "Very clear",
+                        "answer_category": null,
+                        "response_id": "68ca4f389f22717d80e00959"
+                    },
+                    "923129711386": {
+                        "answer": "Clear",
+                        "answer_category": null,
+                        "response_id": "68c105eeed54ec3490efbac4"
+                    },
+                    "923153355328": {
+                        "answer": "clear",
+                        "answer_category": null,
+                        "response_id": "68ca4d6b9f22717d80e00949"
+                    },
+                    "923212029851": {
+                        "answer": "Somewhat Clear",
+                        "answer_category": null,
+                        "response_id": "68ca4ad69f22717d80e00929"
+                    },
+                    "923217948806": {
+                        "answer": "Mostly good",
+                        "answer_category": null,
+                        "response_id": "68c1084ced54ec3490efbad6"
+                    },
+                    "923305066658": {
+                        "answer": "Clear",
+                        "answer_category": null,
+                        "response_id": "68cc018a733e9f74d9f3e4c9"
+                    },
+                    "923314504644": {
+                        "answer": "Clear",
+                        "answer_category": null,
+                        "response_id": "68ca53209f22717d80e00969"
+                    },
+                    "923319063116": {
+                        "answer": "Clear",
+                        "answer_category": null,
+                        "response_id": "68c130bfed54ec3490efbb4a"
+                    },
+                    "923328201529": {
+                        "answer": "Mostly Unclear",
+                        "answer_category": null,
+                        "response_id": "68ca69699f22717d80e0097b"
+                    },
+                    "923332228398": {
+                        "answer": "Clear",
+                        "answer_category": null,
+                        "response_id": "68ca823a9f22717d80e0099d"
+                    },
+                    "923334485309": {
+                        "answer": "very clear",
+                        "answer_category": null,
+                        "response_id": "68ca4a169f22717d80e00919"
+                    },
+                    "923335535832": {
+                        "answer": "Mostly unclear",
+                        "answer_category": null,
+                        "response_id": "68caf5e59f22717d80e009ce"
+                    },
+                    "923339615333": {
+                        "answer": "clear",
+                        "answer_category": null,
+                        "response_id": "68ca85a49f22717d80e009ad"
+                    },
+                    "923339662496": {
+                        "answer": "Somewhat clear",
+                        "answer_category": null,
+                        "response_id": "68ca9e209f22717d80e009be"
+                    },
+                    "923422916143": {
+                        "answer": "Clear",
+                        "answer_category": null,
+                        "response_id": "68c929294bdb58a0b3eddd39"
+                    },
+                    "923462713210": {
+                        "answer": "Clear",
+                        "answer_category": null,
+                        "response_id": "68c117c2ed54ec3490efbb3a"
+                    }
+                },
+                "category": "Technical Explanations Clarity",
+                "question_index": "5",
+                "short_question": "How clear are technical explan",
+                "text": "Q5) How clear are the technical explanations provided by our technical consultants?\n•\tVery Clear\n•\tClear\n•\tSomewhat Clear\n•\tMostly Unclear\n"
+            },
+            {
+                "answers": {
+                    "923018201783": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca7eda9f22717d80e0098b"
+                    },
+                    "923018500731": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca4c219f22717d80e00939"
+                    },
+                    "923018744884": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68c931a34bdb58a0b3eddd4d"
+                    },
+                    "923035918082": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca4f449f22717d80e0095b"
+                    },
+                    "923129711386": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68c105f8ed54ec3490efbac6"
+                    },
+                    "923153355328": {
+                        "answer": "satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca4d769f22717d80e0094b"
+                    },
+                    "923212029851": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca4ae09f22717d80e0092b"
+                    },
+                    "923217948806": {
+                        "answer": "I am not very hopeless 😩",
+                        "answer_category": null,
+                        "response_id": "68c10864ed54ec3490efbad8"
+                    },
+                    "923305066658": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68cc0196733e9f74d9f3e4cb"
+                    },
+                    "923314504644": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca532b9f22717d80e0096b"
+                    },
+                    "923319063116": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68c130d2ed54ec3490efbb4c"
+                    },
+                    "923328201529": {
+                        "answer": "Dissatisfied",
+                        "answer_category": null,
+                        "response_id": "68ca69769f22717d80e0097d"
+                    },
+                    "923332228398": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca824b9f22717d80e0099f"
+                    },
+                    "923334485309": {
+                        "answer": "satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca4a229f22717d80e0091b"
+                    },
+                    "923335535832": {
+                        "answer": "Dissatisfied",
+                        "answer_category": null,
+                        "response_id": "68caf6169f22717d80e009d0"
+                    },
+                    "923339615333": {
+                        "answer": "dtsidfirf",
+                        "answer_category": null,
+                        "response_id": "68ca85ae9f22717d80e009af"
+                    },
+                    "923339662496": {
+                        "answer": "Dissatisfied",
+                        "answer_category": null,
+                        "response_id": "68ca9e4e9f22717d80e009c0"
+                    },
+                    "923422916143": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68c929324bdb58a0b3eddd3b"
+                    },
+                    "923462713210": {
+                        "answer": "Satisfied",
+                        "answer_category": null,
+                        "response_id": "68c117e6ed54ec3490efbb3c"
+                    }
+                },
+                "category": "Customer Satisfaction",
+                "question_index": "6",
+                "short_question": "Satisfaction with SAP support?",
+                "text": "Q6) How satisfied are you with our overall SAP Support Services?\n•\tSatisfied\n•\tDissatisfied\n"
+            },
+            {
+                "answers": {
+                    "923018201783": {
+                        "answer": "Improvise response time to make it more effective that will make TMC on the next level",
+                        "answer_category": null,
+                        "response_id": "68ca7f049f22717d80e0098d"
+                    },
+                    "923018500731": {
+                        "answer": "As per client requirements, your team is expected to respond in a timely, especially for urgent requests that need immediate submission. However, once a ticket is raised, there is often no response in the evenings, particularly on Friday evenings, and we only receive a reply the following Monday. This delay causes us to wait unnecessarily long for urgent requirements.",
+                        "answer_category": null,
+                        "response_id": "68ca4d369f22717d80e00941"
+                    },
+                    "923018744884": {
+                        "answer": "Overall good.",
+                        "answer_category": null,
+                        "response_id": "68c932184bdb58a0b3eddd4f"
+                    },
+                    "923035918082": {
+                        "answer": "Improve ticket handling and priorities",
+                        "answer_category": null,
+                        "response_id": "68ca4f5e9f22717d80e0095d"
+                    },
+                    "923129711386": {
+                        "answer": "No thank you",
+                        "answer_category": null,
+                        "response_id": "68c10603ed54ec3490efbac8"
+                    },
+                    "923153355328": {
+                        "answer": "definitely will share",
+                        "answer_category": null,
+                        "response_id": "68ca4d899f22717d80e0094d"
+                    },
+                    "923212029851": {
+                        "answer": "ABAP consultants’ responses are not always good. When I give tickets directly to technical consultants, they take too much time. Functional consultants also take longer because they are busy with many projects and cannot reply quickly.\n\nWe have an SLA of 80 hours, but some consultants do not mention the timeline or total hours for a ticket. Instead, they spend a lot of time on R&D or discussions. We just want to know clearly if a ticket can be done in 2 or 4 hours.",
+                        "answer_category": null,
+                        "response_id": "68ca4c879f22717d80e0093b"
+                    },
+                    "923217948806": {
+                        "answer": "Nothing",
+                        "answer_category": null,
+                        "response_id": "68c10873ed54ec3490efbada"
+                    },
+                    "923305066658": {
+                        "answer": "No comments",
+                        "answer_category": null,
+                        "response_id": "68cc01ac733e9f74d9f3e4cd"
+                    },
+                    "923314504644": {
+                        "answer": "its ok",
+                        "answer_category": null,
+                        "response_id": "68ca534b9f22717d80e0096d"
+                    },
+                    "923319063116": {
+                        "answer": "The TMC team should provide a timeline for ticket resolution in cases where an SAP business process is stuck. For complex customization tickets, SAP ABAP Consultant from the TMC side should also be involved by itself.",
+                        "answer_category": null,
+                        "response_id": "68c92ef54bdb58a0b3eddd3f"
+                    },
+                    "923328201529": {
+                        "answer": "Someone must review the support services and take prompt action with a timeline to resolve and respond to the client's's request.",
+                        "answer_category": null,
+                        "response_id": "68ca69ff9f22717d80e0097f"
+                    },
+                    "923332228398": {
+                        "answer": "Must work on to improve resolution time of ticket. It takes lot of times even for a small problem. Change of consultant must not be encouraged for a ticket. Portal have some problem regarding update of ticket through an E-mail send by client. Please work on to provide resolution in a reasonable time.",
+                        "answer_category": null,
+                        "response_id": "68ca83d19f22717d80e009a1"
+                    },
+                    "923334485309": {
+                        "answer": "no",
+                        "answer_category": null,
+                        "response_id": "68ca4a2d9f22717d80e0091d"
+                    },
+                    "923335535832": {
+                        "answer": "Understanding the issues and its resolution on time Make better support consultant feedback",
+                        "answer_category": null,
+                        "response_id": "68caf6e69f22717d80e009d2"
+                    },
+                    "923339615333": {
+                        "answer": "satisfied",
+                        "answer_category": null,
+                        "response_id": "68ca85b39f22717d80e009b1"
+                    },
+                    "923339662496": {
+                        "answer": "Kindly assign the experienced consultants to the tickets",
+                        "answer_category": null,
+                        "response_id": "68ca9e769f22717d80e009c2"
+                    },
+                    "923422916143": {
+                        "answer": "no comments",
+                        "answer_category": null,
+                        "response_id": "68c929644bdb58a0b3eddd3d"
+                    },
+                    "923462713210": {
+                        "answer": "Already communicate in started from survey.",
+                        "answer_category": null,
+                        "response_id": "68c1181eed54ec3490efbb3e"
+                    }
+                },
+                "category": "Open-ended feedback",
+                "question_index": "7",
+                "short_question": "Share suggestions or comments?",
+                "text": "Q7) Please share any suggestions for improvement or additional comments."
+            }
+        ],
+        "survey_id": "68c104c7ed54ec3490efbaa3"
+    }
+]

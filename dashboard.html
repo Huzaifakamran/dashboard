@@ -320,11 +320,13 @@
                <th>Answer</th>
                <th>Category</th>
                <th>Response ID</th>
+               <th>Organization</th>
+               <th>Participant</th>
              </tr>
            </thead>
           <tbody id="detailsTableBody">
             <tr>
-               <td colspan="4" class="no-data">Select a survey and question to view data</td>
+               <td colspan="6" class="no-data">Select a survey and question to view data</td>
              </tr>
           </tbody>
         </table>
@@ -407,7 +409,7 @@
          survey.questions.forEach((question, index) => {
            const option = document.createElement('option');
            option.value = `${surveyIndex}-${index}`;
-           option.textContent = `Q${index + 1}: ${question.short_question || `Question ${index + 1}`}`;
+           option.textContent = `Q${index + 1}: ${question.question || `Question ${index + 1}`}`;
            questionSelect.appendChild(option);
          });
          questionSelect.disabled = false;
@@ -433,6 +435,8 @@
                answer_text: answerData.answer,
                category: answerData.answer_category,
                phone_number: phoneNumber,
+               organization: answerData.organization,
+               participant: answerData.participant,
                created_at: new Date().toISOString() // API doesn't provide timestamp
              });
            });
@@ -560,7 +564,7 @@
       detailsTableBody.innerHTML = '';
 
       if (filteredResponses.length === 0) {
-        detailsTableBody.innerHTML = '<tr><td colspan="4" class="no-data">No responses found</td></tr>';
+        detailsTableBody.innerHTML = '<tr><td colspan="6" class="no-data">No responses found</td></tr>';
         return;
       }
 
@@ -571,6 +575,8 @@
            <td>${response.answer_text || 'N/A'}</td>
            <td>${response.category || 'Uncategorized'}</td>
            <td>${response.id}</td>
+           <td>${response.organization || 'N/A'}</td>
+           <td>${response.participant || 'N/A'}</td>
          `;
          detailsTableBody.appendChild(row);
        });
@@ -598,7 +604,7 @@
       
       if (categoryChartInstance) categoryChartInstance.destroy();
       
-      detailsTableBody.innerHTML = '<tr><td colspan="4" class="no-data">Select a survey and question to view data</td></tr>';
+      detailsTableBody.innerHTML = '<tr><td colspan="6" class="no-data">Select a survey and question to view data</td></tr>';
     }
 
     // Event listeners
